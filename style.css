@@ -1,0 +1,38 @@
+main {
+    padding: 30px 50px;
+}
+
+.lineInput {
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: auto;
+    text-align: center;
+
+    border-collapse: collapse;
+ 
+}
+
+table th {
+    background-color: #ccc;
+}
+
+table td img {
+    width: 20px;
+}
+
+table th, td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}

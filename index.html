@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto desafio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+<body>
+
+   <main>
+      <div class="card">
+           <div class="lineInput">
+               <label>Produto</label>
+               <input type="text" id="produto" placeholder="nome do produto">
+           </div>
+
+           <div class="lineInput">
+            <label>Quantidade</label>
+            <input type="text" id="quantidade" placeholder="quantidade">
+
+            </div>
+
+            <label>Categoria</label>
+            <select id="selecione">
+                <option selected disabled value="">Selecione</option>
+                <option>Higiene</option>
+                <option>Carnes</option>
+                <option>Frutas/Verduras/Legumes</option>
+                <option>Bebidas</option>
+            </select> <br><br>
+            
+           <div class="lineInput">
+            <label>valor</label>
+            <input type="text" id="preco" placeholder="preco">
+
+            </div>
+
+
+       </div>
+
+       <div class="card">
+        <button onclick="produto.salvar()">Inserir</button>
+        <button onclick="produto.cancelar()">Limpar</button>
+        <button onclick="produto.pesquisar()">Pesquisar</button>
+
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th class="center">Produto</th>
+                    <th>Categoria</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th class="center">Excluir</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+    
+</body>
+</html>
